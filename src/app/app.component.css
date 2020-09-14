@@ -1,0 +1,32 @@
+#videoElement{
+    display: none;
+}
+.person{
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    position: absolute;
+    z-index: 9999;
+    margin-top: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: 0;
+    margin-right: auto;
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+    filter: FlipH;
+}
+.container1{
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: transparent;
+    background-image: url(unnamed.jpg);
+}
